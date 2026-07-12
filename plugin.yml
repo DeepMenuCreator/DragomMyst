@@ -1,0 +1,19 @@
+name: MystPlugin
+version: '${project.version}'
+main: ru.myst.MystPlugin
+api-version: '1.21'
+author: MystTeam
+description: Плагин мистических сундуков (Myst) с голограммами, лутом и таймерами
+
+commands:
+  myst:
+    description: Основная команда плагина Myst
+    usage: /myst <subcommand>
+
+permissions:
+  myst.admin:
+    description: Доступ ко всем командам администрирования Myst
+    default: op
+  myst.bypass:
+    description: Игнорирование приватов зон Myst
+    default: op
